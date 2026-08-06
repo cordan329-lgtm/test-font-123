@@ -1,0 +1,34 @@
+/**
+ * @name mochibop-font
+ * @description Apply a local custom font in Vencord
+ * @author Kenzie
+ * @version 1.0
+ */
+
+/*------------------------------------------------------
+                Load Custom Font
+------------------------------------------------------*/
+
+/* Replace the path with your font file location */
+@font-face {
+    font-family: "mochibop";
+    src: url("mochibop.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+/* Apply globally */
+* {
+    font-family: "mochibop", sans-serif !important;
+    font-size: 20px !important;
+}
+
+code, pre, .codeBlock-2t8n1x {
+    font-family: "mochibop", monospace !important;
+}
+
+#app-mount [class="messageContent"] {
+    font-size: 30px !important;
+    line-height: 1.4 !important;
+}
