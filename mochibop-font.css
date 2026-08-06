@@ -12,7 +12,7 @@
 /* Replace the path with your font file location */
 @font-face {
     font-family: "mochibop";
-    src: url("https://github.com/cordan329-lgtm/test-font-123/blob/main/mochibop.ttf") format("truetype");
+    src: url("https://github.com/cordan329-lgtm/test-font-123/raw/refs/heads/main/mochibop.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     
